@@ -10,7 +10,7 @@ function indent() {
     sed -e 's/^/       /'
 }
 
-export BUILD_DIR="$1"
+export BUILD_DIR="$1/scripts"
 export ENV_DIR="$3"
 
 BUILDPACK_VARIABLES="DISABLE_POETRY_CREATE_RUNTIME_FILE PYTHON_RUNTIME_VERSION"
